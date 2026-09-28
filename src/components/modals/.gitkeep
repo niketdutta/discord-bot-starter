@@ -1,0 +1,2 @@
+Modal submit interaction modules. Each file must export an object matching
+`structures/Component.js`: { customId: string | RegExp, execute: async (interaction, client) => {} }

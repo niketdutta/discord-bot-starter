@@ -1,0 +1,3 @@
+Select menu interaction modules (string, user, role, mentionable, or channel
+select). Each file must export an object matching `structures/Component.js`:
+{ customId: string | RegExp, execute: async (interaction, client) => {} }

@@ -1,0 +1,3 @@
+Business-logic services (moderation, leveling, economy, etc.) live here,
+decoupled from discord.js so they're independently testable. Commands and
+events call into services rather than embedding logic themselves.

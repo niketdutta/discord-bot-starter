@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+vendor/*/node_modules/
+
+# Environment variables — contains live secrets, never commit
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.pid

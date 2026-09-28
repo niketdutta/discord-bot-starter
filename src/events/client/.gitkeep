@@ -1,0 +1,2 @@
+Client-level events (ready, interactionCreate, error, etc.). Each file must
+export an object matching `structures/Event.js`.

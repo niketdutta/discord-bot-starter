@@ -1,0 +1,2 @@
+Cross-cutting checks invoked from the interactionCreate event: cooldown
+enforcement, permission gates, guild feature-flag checks, etc.
